@@ -1,5 +1,5 @@
 // Copyright 2022 OmniBTC Authors. Licensed under Apache-2.0 License.
-module swap::implements {
+module implements::implements {
     use std::string::{Self, String};
 
     use sui::balance::{Self, Supply, Balance};
