@@ -8,4 +8,4 @@ Sui = { git = "https://gitee.com/MystenLabs/sui.git", subdir = "crates/sui-frame
 
 [addresses]
 # Note: replace real swap address for test_coins
-swap = "0x0"
+implements = "0x0"
