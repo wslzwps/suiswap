@@ -1,0 +1,11 @@
+[package]
+name = "swap"
+version = "1.0.0"
+published-at="0x666ab936b379987d6c938d6fff1047a53209ecbc29ab5bd614d9068fc1531e28"
+
+[dependencies]
+Sui = { git = "https://gitee.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+
+[addresses]
+# Note: replace real swap address for test_coins
+swap = "0x0"
