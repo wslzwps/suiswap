@@ -35,7 +35,7 @@ module implements::implements {
     /// - amount of Coin<X>
     /// - amount of Coin<Y>
     /// - total supply of LP<X,Y>
-    public fun get_reserves_size<X, Y>(pool: &Pool<X, Y>): (u64, u64, u64) {
+    public entry fun get_reserves_size<X, Y>(pool: &Pool<X, Y>): (u64, u64, u64) {
         (
             balance::value(&pool.coin_x),
             balance::value(&pool.coin_y),
