@@ -6,4 +6,4 @@ version = "0.0.1"
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
 
 [addresses]
-implements = "0x0"
+implements = "0x4737a8721711c1f593da990f594159db385ab6cbd4e1436d0822da2e98b8e6a7"
